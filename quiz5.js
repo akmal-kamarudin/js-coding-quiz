@@ -4,6 +4,12 @@
 
 function groupAnagrams(strs) {
   // Your code here
+  for (let i = 0; i < strs.length; i++) {
+    let word = strs[i].split("");
+    let sortWord = word.sort();
+
+    console.log(sortWord);
+  }
 }
 
 const input1 = ["eat", "tea", "tan", "ate", "nat", "bat"];
