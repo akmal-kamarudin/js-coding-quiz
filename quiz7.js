@@ -3,6 +3,15 @@
 
 function sumOfSquares(nums) {
   // Your code here
+  let numTotal = 0;
+  for (let i = 0; i < nums.length; i++) {
+    let numSquare = Math.pow(nums[i], 2);
+
+    numTotal += numSquare;
+  }
+
+  console.log(numTotal);
+  return numTotal;
 }
 
 const input1 = [1, 2, 3];
