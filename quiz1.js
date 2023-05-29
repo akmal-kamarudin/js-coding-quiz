@@ -4,9 +4,7 @@
 function countVowels(str) {
   // Your code here
   const vowels = ["a", "e", "i", "o", "u"];
-
   const words = str.split("");
-
   let count = 0;
 
   for (let i = 0; i < words.length; i++) {
@@ -16,7 +14,9 @@ function countVowels(str) {
       }
     }
   }
+
   console.log(count);
+  return count;
 }
 
 countVowels("hellooo");

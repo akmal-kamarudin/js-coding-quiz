@@ -32,8 +32,9 @@ function findDuplicates(arr) {
     }
   }
 
-  console.log(indexOfArr);
+  // console.log(indexOfArr);
   console.log(duplicates);
+  return duplicates;
 }
 
 findDuplicates([1, 2, 3, 2, 5, 3, 6, 1]); // [2, 3, 1]
